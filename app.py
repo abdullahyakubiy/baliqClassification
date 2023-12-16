@@ -5,13 +5,12 @@ import plotly.express as px
 import platform
 
 plt = platform.system()
-if plt == 'Linux': 
-    pathlib.WindowsPath = pathlib.PosixPath
+if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 
-#import platform
+
 #plt = platform.system()
-#if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
+
 
 st.title('Suv hayvonlarini klassifikatsiya qiluvchi model')
 
